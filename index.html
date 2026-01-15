@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>春联展示</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+      .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .image-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      img {
+        max-width: 300px;
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>春联展示</h1>
+    <div class="image-container">
+      <div class="image-item">
+        <img
+          src="assets/fei-cai.jpg"
+          alt="Fei Cai" />
+        <p>飞雪迎春春若画，彩云追月月如盘</p>
+      </div>
+      <div class="image-item">
+        <img
+          src="assets/ma-chun.jpg"
+          alt="Ma Chun" />
+        <p>马携瑞霭绕天地，春送和风润古今</p>
+      </div>
+      <div class="image-item">
+        <img
+          src="assets/yi-shi.jpg"
+          alt="Yi Shi" />
+        <p>一年好景随春到，四季财源顺时来</p>
+      </div>
+    </div>
+  </body>
+</html>
